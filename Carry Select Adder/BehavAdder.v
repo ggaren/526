@@ -8,4 +8,5 @@ module BehavAdder(cin, A, B, coutb, outb);
   always @(cin, A, B)  begin
      temp = cin + A + B ;
      coutb = temp[6];
-     outb =
+	  outb = temp[5:0]
+	  endmodule
